@@ -6,5 +6,5 @@ Trufflehog DefectDojo
 ```
 docker run -e DOJOKEY='<api_key>' \
 -e DOJOIP='<ip:port>' \
--e EGID='<Engagement_ID>' --rm -v "$(pwd):/proj" cyberkru/trufflehog-dojo
+-e PRODNAME='<Product_name>' --rm -v "$(pwd):/proj" cyberkru/trufflehog-dojo
 ```
