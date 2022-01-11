@@ -5,6 +5,6 @@ Trufflehog DefectDojo
 -Run Docker image
 ```
 docker run -e DOJOKEY='<api_key>' \
--e DOJOIP='<ip:port>' \
+-e DOJOURL='<dojo_url>' \
 -e PRODNAME='<Product_name>' --rm -v "$(pwd):/proj" cyberkru/trufflehog-dojo
 ```
